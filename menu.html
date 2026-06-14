@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Saoenk Cobek</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/SC LOGO.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <!-- <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1> -->
+                    <img src="img/SC LOGO.png" alt="Logo" class="img-fluid" style="max-height:60px ; margin-right:15px;">
+                    <img src="img/DAWAI LOGO.png" alt="Logo" class="img-fluid" style="max-height:60px;  margin-right:15px;">
+                    <img src="img/CG Logo.png" alt="Logo" class="img-fluid" style="max-height:50px;  margin-right:15px;" >                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                        
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="booking.html" class="btn btn-primary py-2 px-4">Book A Table</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="service.html">Service</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Menu</h5>
+                    <h1 class="mb-5">Items</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Paket</small>
+                                    <h6 class="mt-n1 mb-0">Prasmanan</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-box fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Paket</small>
+                                    <h6 class="mt-n1 mb-0">Spesial Box</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-drumstick-bite fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Aqiqah</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-4">
+                                <i class="fa fa-wine-glass-alt fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Paket</small>
+                                    <h6 class="mt-n1 mb-0">Minuman</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/bronze.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Bronze</span>
+                                                <span class="text-primary">Rp30.525/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Catering di Resto minimal 50pax | Catering di luar resto Minimal 75pax</small>Tidak berlaku di cabang Perintis</small>
+                                            <a href="menu.html#bronze" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/silver.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Silver</span>
+                                                <span class="text-primary">Rp33.500/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Catering di Resto minimal 50pax | Catering di luar resto Minimal 75pax</small></small>Tidak berlaku di cabang Perintis</small>
+                                            <a href="menu.html#silver" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/gold.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Gold</span>
+                                                <span class="text-primary">Rp39.990/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Catering di Resto minimal 50pax</small>
+                                            <a href="menu.html#gold" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/platinum.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Platinum</span>
+                                                <span class="text-primary">Rp49.990/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Catering di Resto minimal 50pax</small>
+                                            <a href="menu.html#platinum" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/diamond.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Diamond</span>
+                                                <span class="text-primary">Rp61.050/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Catering di Resto minimal 50pax</small>
+                                            <a href="menu.html#diamond" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/paket1Box.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket 1</span>
+                                                <span class="text-primary">Rp23.000/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Minimal 30pax free delivery!</small>
+                                            <a href="menu.html#paket1" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/paket2Box.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket 2</span>
+                                                <span class="text-primary">Rp29.990/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Minimal 30pax free delivery!</small>
+                                            <a href="menu.html#paket2" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/paketspecial1.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Spesial 1</span>
+                                                <span class="text-primary">Rp33.500/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Minimal 30pax free delivery!</small>
+                                            <a href="menu.html#spesial1" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/paketspecial2.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Spesial 2</span>
+                                                <span class="text-primary">Rp38.900/pax</span>
+                                            </h5>
+                                            <small class="fst-italic">Minimal 30pax free delivery!</small>
+                                            <a href="menu.html#spesial2" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snackbox.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Snack Box</span>
+                                                <span class="text-primary">Variatif</span>
+                                            </h5>
+                                            <small class="fst-italic">Minimal 30pax free delivery!</small>
+                                            <a href="menu.html#snack" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/aqiqah1.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket 1</span>
+                                                <span class="text-primary">Rp4.500.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Paket 1 kambing (Anak Perempuan) Olahan Kari</small>
+                                            <a href="menu.html#aqiqah1" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/aqiqah2.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket 2</span>
+                                                <span class="text-primary">Rp7.800.000</span>
+                                            </h5>
+                                            <small class="fst-italic">Paket 2 kambing (Anak Laki-laki) Olahan Kari</small>
+                                            <a href="menu.html#aqiqah2" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/minuman.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paket Dispenser</span>
+                                                <span class="text-primary">Variatif</span>
+                                            </h5>
+                                            <small class="fst-italic">1 Dispenser (30pax) Rp90.000<br>2 Dispenser (60pax) Rp170.000</small>
+                                            <a href="menu.html#minuman" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/minuman.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kopi & Teh</span>
+                                                <span class="text-primary">Variatif</span>
+                                            </h5>
+                                            <small class="fst-italic">35pax Rp180.000<br>70pax Rp280.000</small>
+                                            <a href="menu.html#minuman" class="btn btn-sm btn-outline-primary mt-2">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Paket Prasmanan Start --> 
+        <!-- Paket Bronze Start -->
+        <div id="bronze" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5>
+            <h1 class="mb-5">Pilihan Paket Bronze</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Bronze A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Bronze A</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Goreng Kecap</li>
+                    <li>🥔 Perkedel</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header" 
+                        class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        onclick="sendToWA('Bronze A')">Pesan Sekarang</a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Bronze B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Bronze B</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Crispy</li>
+                    <li>🥚 Fuyung Hai</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Bronze C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Bronze C</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Bakar Kecap</li>
+                    <li>🥚 Telur Balado</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Bronze End -->
+        <!-- Paket silver Start -->
+        <div id="silver" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Silver</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Silver A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Silver A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🍗 Ayam Suwir</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Silver B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Silver B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🍗 Ayam Asam Manis</li>                  
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Silver C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Silver C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🍗 Ayam Mentega</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍉 Dessert: Buah Potong</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Silver End -->
+
+        <!-- Paket Gold Start -->
+        <div id="gold" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Gold</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- gold A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Gold A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Sate Goreng</li>
+                    <li>🐟 Ikan Goreng Fillet Kemangi</li>
+                    <li>🍤 Udang Crispy</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Ayam</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- gold B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Gold B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Sambal Kemangi</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🍤 Udang Asam Manis</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Ayam</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- gold C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Gold C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Bakar Madu</li>
+                    <li>🐟 Ikan Fillet Asam Manis</li>
+                    <li>🍤 Udang Crispy</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Ayam</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Gold End -->
+
+        <!-- Paket Platinum Start -->
+        <div id="platinum" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Platinum</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Platinum A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Platinum A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Paru Sambal Goreng</li>
+                    <li>🐟 Ikan Fillet Kemangi</li>
+                    <li>🍗 Ayam Krispy</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Capcay</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Platinum B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Platinum B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Paru Goreng Rica</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🥩 Sate Goreng</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Capcay</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Platinum C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Platinum C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Paru Goreng Kentang</li>
+                    <li>🐟 Ikan Goreng Fillet</li>
+                    <li>🍗 Ayam Asam Manis</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Capcay</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Platinum End -->
+
+        <!-- Paket Diamond Start -->
+        <div id="diamond" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Diamond</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Diamond A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Diamond A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Daging Goreng Kentang</li>
+                    <li>🐟 Ikan Fillet Kemangi</li>
+                    <li>🍤 Udang Saos Padang</li>
+                    <li>🍗 Ayam Bakar Kecap</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Bakso</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Diamond B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Diamond B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Daging Toppa Lada</li>
+                    <li>🐟 Ikan Fillet Kemangi</li>
+                    <li>🍤 Udang Asam Manis</li>
+                    <li>🍗 Ayam Suwir</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Ayam</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Diamond C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Diamond C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🥩 Daging Sambal Goreng</li>
+                    <li>🐟 Ikan Fillet Rica</li>
+                    <li>🍤 Udang Saos Padang</li>
+                    <li>🍗 Ayam Bakar Kecap</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥣 Sup Ayam</li>
+                    <li>🌶️ Acar & Sambel</li>
+                    <li>🍘 Kerupuk & Air Mineral</li>
+                    <li>🍧 Dessert: Es Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Diamond End -->
+
+        <!-- Paket Prasmanan End -->
+
+        <!-- Paket Spesial Box Start --> 
+        <!-- Paket 1 Start -->
+        <div id="paket1"class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Spesial Box</h5>
+            <h1 class="mb-5">Pilihan Paket 1</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Paket 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 1 A</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Geprek Rica</li>
+                    <li>🍳 Tempe & Tahu</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Paket 1 B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 1 B</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Asam Manis</li>
+                    <li>🍳 Tempe & Tahu</li>
+                    <li>🥦 Sayur Tumis</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Paket 1 C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 1 C</h5>
+                    <p class="text-muted mb-3">Rp30.525/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Goreng Wijen</li>
+                    <li>🍳 Oseng Tempe</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Paket 1 End -->
+        <!-- Paket Paket 2 Start -->
+        <div id="paket2" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket 2</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- paket 2 A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 2 A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🐟 Nasi Ikan Bolu Bakar</li>
+                    <li>🍳 Tempe & Tahu</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- paket 2 B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 2 B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Goreng Tepung</li>
+                    <li>🍳 Oseng Tempe</li>
+                    <li>🥦 Sayur Sup Ayam</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- paket 2 C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket 2 C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Geprek RIca</li>
+                    <li>🍜 Mie Goreng</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Paket 2 End -->
+
+        <!-- Paket Spesial 1 Start -->
+        <div id="spesial1" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Spesial 1</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Spesial 1 A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Spesial 1 A</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Asam Manis</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥚 Telur Balado</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Spesial 1 B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Spesial 1 B</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🐟 Nasi Ikan Bolu Bakar/Goreng</li>
+                    <li>🍳 Tempe Goreng Tepung</li>
+                    <li>🍜 Racca Mangga</li>
+                    <li>🥚 Telur Balado</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Spesial 1 C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Spesial 1 C</h5>
+                    <p class="text-muted mb-3">Rp33.500/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Kari</li>
+                    <li>🥚 Telur Balado</li>
+                    <li>🍳 Oseng Tempe</li>
+                    <li>🥦 Capcay</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Spesial 1 End -->
+
+        <!-- Paket Spesial 2 Start -->
+        <div id="spesial2" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Spesial 2</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Spesial 2 A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Paket Spesial 2 A</h5>
+                    <p class="text-muted mb-3">Rp38.900/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Asam Bakar Rica</li>
+                    <li>🥩 Sate Ayam</li>
+                    <li>🍳 Oseng Tempe</li>
+                    <li>🥦 Sup Jamur Bakso Ikan</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Spesial 2 B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Spesial 2 B</h5>
+                    <p class="text-muted mb-3">Rp38.900/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚🍗 Nasi Ayam Mentega</li>
+                    <li>🍤 Udang Goreng Tepung</li>
+                    <li>🥚 Telur Balado</li>
+                    <li>🍳 Tempe Tepung & Tahu</li>
+                    <li>🥦 Sayur Sup</li>
+                    <li>🌶️ Sambel</li>
+                    <li>💧 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Spesial 2 C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Spesial 2 C</h5>
+                    <p class="text-muted mb-3">Rp38.900/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ikan Fillet</li>
+                    <li>🍗 Ayam Bakar Madu</li>
+                    <li>🥚 Tempe Tepung & Tahu</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Sayur Buncis Tumis</li>
+                    <li>🌶️ Sambel</li>
+                    <li>🍘 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <!-- Spesial 2 C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Spesial 2 D</h5>
+                    <p class="text-muted mb-3">Rp38.900/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>🍚 Nasi Putih</li>
+                    <li>🍗 Ayam Goreng Tepung</li>
+                    <li>🥚 Udang Goreng Tepung</li>
+                    <li>🍜 Mie Goreng Jawa</li>
+                    <li>🥦 Oseng Tempe</li>
+                    <li>🥦 Sup Ayam</li>
+                    <li>🌶️ Sambel</li>
+                    <li>🍘 Air Mineral</li>
+                    <li>🍉 Buah</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf-1d6BrDXcW-ZEcPgG3RC5LUI0UB_OfIOIzi9dJlTPznJs9g/viewform?usp=header"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Spesial 2 End -->
+
+        <!-- Paket Snack Box Start -->
+        <div id="snack" class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Prasmanan</h5> -->
+            <h1 class="mb-5">Pilihan Paket Snack Box</h1>
+            </div>
+            <div class="row g-4">
+
+            <!-- Snack Box A -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Snack Box A</h5>
+                    <p class="text-muted mb-3">Rp12.000/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>2 Macam Kue (Manis dan Asin)</li>
+                    <li>🍘 Air Mineral 220ml</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Snack Box B -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Snack Box B</h5>
+                    <p class="text-muted mb-3">Rp17.000/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>2 Macam Kue (Manis dan Asin)</li>
+                    <li>🍘 Air Mineral 330ml</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Snack Box C -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Snack Box C</h5>
+                    <p class="text-muted mb-3">Rp20.000/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>2 Macam Kue (Manis dan Asin)</li>
+                    <li>Teh Sosro</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Snack Box D -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden shadow">
+                <div class="p-4">
+                    <h5 class="mb-1 text-primary">Snack Box C</h5>
+                    <p class="text-muted mb-3">Rp21.000/pax</p>
+                    <ul class="list-unstyled text-start">
+                    <li>2 Macam Kue (Manis dan Asin)</li>
+                    <li>Teh Kotak</li>
+                    </ul>
+                    <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                        href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                        target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Paket Snack Box End -->
+        <!-- Paket Spesial Box End -->
+
+        <!-- Paket Minuman Start --> 
+
+        <!-- Paket Minuman Start -->
+        <div id="minuman" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Dispenser</h5>
+                <h1 class="mb-5">Paket Minuman Dispenser</h1>
+                </div>
+                <div class="row g-4">
+                    <!-- Jus Dispenser -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden shadow">
+                        <div class="p-4">
+                            <h5 class="mb-1 text-primary">Paket Jus Dispenser</h5>
+                            <p class="text-muted mb-3"></p>
+                            <ul class="list-unstyled text-start">
+                            <li>🥤 1 Dispenser(30 pax) Rp90.000</li>
+                            <li>🥤 2 Dispenser(60 pax) Rp170.000</li>
+                            
+                            </ul>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                                href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                                target="_blank">
+                                Pesan Sekarang
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Kopiteh -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden shadow">
+                        <div class="p-4">
+                            <h5 class="mb-1 text-primary">Paket Kopi & Teh</h5>
+                            <p class="text-muted mb-3"></p>
+                            <ul class="list-unstyled text-start">
+                            <li>🍵 35 pax Rp180.000</li>
+                            <li>☕ 70 pax Rp280.000</li>
+                            </ul>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                                href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                                target="_blank">
+                                Pesan Sekarang
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                <!-- Paket Kopiteh End -->
+                </div>
+            </div>
+        </div>
+        <!-- Paket Minuman End -->
+
+        <!-- Paket Aqiqah Start -->
+        <div id="aqiqah" class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Paket Lovely</h5>
+                <h1 class="mb-5">Aqiqah</h1>
+                </div>
+                <div class="row g-4">
+                    <!-- aqiqah1 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden shadow">
+                        <div class="p-4">
+                            <h5 class="mb-1 text-primary">Paket Aqiqah 1</h5>
+                            <p class="text-muted mb-3">1 ekor Kambing (Olahan Kari)/50pax<br>Rp4.500.000<br>(Anak Perempuan)</p>
+                            <ul class="list-unstyled text-start">
+                            <li>🍚 Nasi Putih</li>
+                            <li>🍗 Ayam Goreng Mentega</li>
+                            <li>🍜 Mie Goreng Jawa</li>
+                            <li>🥦 Sayur Sup</li>
+                            <li>🍘 Acar & Kerupuk</li>
+                            <li>🌶️ Sambel & Air Mineral</li>
+                            <li><b>*tambahan 24K/pax</b></li>
+                            </ul>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                                href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                                target="_blank">
+                                Pesan Sekarang
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- aqiqah2 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden shadow">
+                        <div class="p-4">
+                            <h5 class="mb-1 text-primary">Paket Aqiqah 2</h5>
+                            <p class="text-muted mb-3">2 ekor Kambing (Olahan Kari)/50pax<br>Rp7.800.000<br>(Anak Laki-laki)</p>
+                            <ul class="list-unstyled text-start">
+                            <li>🍚 Nasi Putih</li>
+                            <li>🍗 Ayam Goreng Mentega</li>
+                            <li>🍜 Mie Goreng Jawa</li>
+                            <li>🥦 Sayur Sup</li>
+                            <li>🍘 Acar & Kerupuk</li>
+                            <li>🌶️ Sambel & Air Mineral</li>
+                            <li><b>*tambahan 24K/pax</b></li>
+                            </ul>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 mt-3"
+                                href="https://forms.gle/6DQcxh3fM3Ceh4UR7"
+                                target="_blank">
+                                Pesan Sekarang
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                <!-- Paket aqiqah2 End -->
+                </div>
+            </div>
+        </div>
+        <!-- Paket Aqiqah End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="booking.html">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Perintis</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Gowa</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bone</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+6281 1445 3343</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://instagram.com/saoenkcobek"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/19Rst4ytPD/"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Butuh Bantuan?</h4>
+                        <p>Tim kami siap membantu Anda.</p>
+                        <p><i class="fab fa-whatsapp me-3"></i><a href="https://wa.me/628114453343">Chat via WhatsApp</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">PT. Tritama Nusantara</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="">Arfi Ayuzar & Jeane Anggraini </a><br><br>
+                            <p class="mb-2">Credit by <a href="https://htmlcodex.com" target="_blank">HTML Codex</a></p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <!-- <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+         <!-- WhatsApp Floating Button -->
+            <a href="https://wa.me/628114453343?text=Halo%20saya%20mau%20bertanya" 
+                class="whatsapp-float" 
+                target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
